@@ -25,10 +25,8 @@ public class Main {
         System.out.println(Arrays.toString(salary));
         int sum = 0;
         for (int i = 0; i < salary.length; i++) {
-            sum = sum + salary[i];
-            System.out.println("Сумма трат за месяц составила " + sum + " рублей");
-
-        }
+            sum = sum + salary[i];}
+        System.out.println("Сумма трат за месяц составила " + sum + " рублей");
     }
 
     public static void task2() {
@@ -61,10 +59,9 @@ public class Main {
 
         for (int i = 0; i < salary.length; i++) {
             sum = sum + salary[i];
-
-            double avarageValue = sum / salary.length;
-            System.out.println("Средняя сумма трат за месяц составила " + avarageValue + " рублей");
         }
+        double avarageValue = sum / salary.length;
+        System.out.println("Средняя сумма трат за месяц составила " + avarageValue + " рублей");
     }
 
     public static void task4() {
